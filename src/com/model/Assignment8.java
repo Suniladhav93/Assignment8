@@ -31,6 +31,7 @@ public class Assignment8
 	  driver.get("http://live.guru99.com");
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
+	  System.out.println("github to eclipse");
   }
 
 }
