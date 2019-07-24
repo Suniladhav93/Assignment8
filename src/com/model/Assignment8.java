@@ -21,6 +21,7 @@ public class Assignment8
 	  driver.findElement(By.cssSelector("input[id='email']")).sendKeys("suniladhav10@gmail.com");
 	  driver.findElement(By.cssSelector("input[id='pass']")).sendKeys("p@ssword1");
 	  driver.findElement(By.xpath("//button[@id='send2']")).click();
+	  System.out.println("eclipse to gitHub");
   }
   @BeforeSuite
   public void beforeSuite()
